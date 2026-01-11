@@ -9,8 +9,20 @@ console.log(a-b); //-9
 console.log(a*b); //252
 console.log(++b); //22
 console.log(b+1); //23
-console.log(typeof string(b));
+console.log(typeof b);
 
 //2. Assignment Operators =, +=, -=, *=, /=
 
-//3. comparison Operator
+//3. comparison Operator ==, ===, !=, !===, >, <, >=, <= 
+        // ==  doesnot care about dataype it only checks values
+        // === it checks both value and datatype
+
+//4. Logical Operators && , || , !
+
+//5. Bitwise Operators & , ^ , <<(left shift) , >>(right shift)
+
+//6. Ternary Operator
+        let age = 28;
+        let result = age>=18 ? "Adult" : "Minor";
+
+

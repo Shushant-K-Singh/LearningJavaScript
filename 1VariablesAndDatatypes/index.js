@@ -50,3 +50,9 @@ let obj = {
 }
 console.log(obj["name"]);
 console.log(obj.age);
+
+// TRUTHY and FALSY values
+//1. false values   false, 0, -0, "", null, undefined, NaN
+//2. truth values   true, "non-empty string", 1(any number except 0), [] both empty and non empty array, {} both empty and non empty object, function(){}
+
+
